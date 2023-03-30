@@ -1,38 +1,167 @@
-.App {
-  text-align: center;
+.small-profile {
+  margin-left: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .app-bar {
+  align-items: center;
+  margin: auto;
+} */
+
+#text-field {
+  outline: black;
+  background-color: aliceblue;
+  border-radius: 25px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.small-details {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px 20px;
+  border-bottom: 1px solid rgb(240, 240, 240);
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mobile-specs {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+
+
+}
+
+.mobile-container {
+  background-color: rgb(219, 208, 243);
+  width: 100%;
+}
+
+.mobile-model {
+  min-height: 150px;
+  width: 200px;
+  object-fit: cover;
+
+}
+
+.mobile-name {
+  font-size: 20px;
+  font-weight: Bold;
+  color: rgb(3, 3, 43);
+}
+
+.sliders {
+  width: 50%;
+  height: 200px;
+}
+
+
+
+.post-style {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  /* position: relative; */
+
+}
+
+.movebtn {
+  position: absolute;
+  top: 70%;
+  transform: translate(0, -50%);
+  left: 45%;
+  font-size: 45px;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.fullwall {
+
+  height: 100%;
+  position: relative;
+}
+
+.phone-container {
+  background-color: orange;
+  width: 340px;
+}
+
+.phone-poster {
+  height: 300px;
+  width: 100%;
+  /* zoom  in */
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.phone-specs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.phone-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.phone-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(76, 68, 192);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+}
+
+.links {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(214, 17, 17);
+  margin-left: 20px;
+  font-size: 25px;
+
+}
+
+
+
+.signup-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.signup-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.login-container {
+  width: 300px;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.back {
+  background-color: blueviolet;
 }
